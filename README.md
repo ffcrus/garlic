@@ -29,7 +29,7 @@ kUbuntu 20.04
 ```
 sudo apt install xdotool xsel sed
 ```
-Необходимо скачать скрипты и положить в какой-нибудь локальный каталог. Я рекомендую использовать `$HOME/bin/`. Должно получиться так:
+Необходимо скачать скрипты из папки `/bin/` и положить в какой-нибудь локальный каталог. Я рекомендую использовать `$HOME/bin/`. Должно получиться так:
 ```
 /home/$USER/bin/layout_changing_selected.sh
 /home/$USER/bin/layout_changing_previous.sh
