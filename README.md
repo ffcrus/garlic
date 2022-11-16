@@ -79,4 +79,9 @@ chmod +x $HOME/bin/layout_changing_previous.sh
 
 **Готово. Работать начнёт сразу, без перезагрузки!**
 ## Полезные ссылки
-* Проект [xkblayout-state](https://github.com/nonpop/xkblayout-state) позволит настроить звук на каждую раскладку.
+* Проект [xkblayout-state](https://github.com/nonpop/xkblayout-state) позволит настроить звук на каждую раскладку. добавить в конец скрипта:
+```
+QQ=$(~/.src/xkblayout-state/xkblayout-state print '%n'|sed "s:Russian:ru:;s:English:us:;s:Ukrainian:ua:")
+sleep 0.5
+aplay  ~/.zFront_Right$QQ.wav
+```
