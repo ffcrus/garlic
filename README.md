@@ -10,7 +10,7 @@ kUbuntu 20.04
 
 Самое известное - это [XNeur](https://github.com/AndrewCrewKuznetsov/xneur-devel). Оно не поддерживается с 2016 года и под KDE нормально не работает. 
 
-Ещё есть [switcher](https://github.com/ds-voix/xswitcher), но он развивается не туда, куда мне нужно и не может перевести выделенный текст в другую раскладку.
+Ещё есть [switcher](https://github.com/ds-voix/xswitcher), но он развивается не туда, куда мне нужно и [не может](https://github.com/ds-voix/xswitcher/issues/5#issuecomment-1139833292) перевести выделенный текст в другую раскладку.
 
 Ещё есть [тема на форуме](https://forum.ubuntu.ru/index.php?topic=271377.0) со скриптами, которые не удовлетворяют моим желаниям. Но оттуда я взял идею.
 
