@@ -1,7 +1,7 @@
 #!/bin/sh
 ## Этот скрипт позволяет менять раскладку выделенного текста
 ## https://github.com/ffcrus/garlic
-## v0.5 2022.12.03
+## v0.5.1 2022.12.06
 
 ## Сохраняем текущий буфер обмена
 SAVED_CLIPBOARD=$(xsel -ob)
@@ -22,7 +22,7 @@ xdotool keyup Insert
 xdotool key --clearmodifiers Shift+Insert
 
 ## Очищаем из буфера обмена исправленную фразу (не у всех работает эта функция)
-xsel -cp && xsel -cs && xsel -cb
+xsel --clear
 
 ## Восстанавливаем буфер обмена
 echo -n $SAVED_CLIPBOARD | xsel -ib
